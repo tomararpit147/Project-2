@@ -1,5 +1,7 @@
 🎵 Apple iTunes Music Store Analysis
+
 📋 Project Overview
+
 A comprehensive SQL analysis of Apple iTunes Music Store data to derive actionable business insights on customer behavior, sales performance, and product popularity.
 
 🗄️ Database Schema
@@ -18,15 +20,23 @@ Tables: employee, customer, invoice, invoice_line, track, album, artist, genre, 
 • Operational Efficiency: Employee performance, inventory optimization
 
 📊 Key Insights
+
 Metric	                  Value
+
 Total Revenue	            $11,800
+
 Active Customers	        45
+
 Avg Customer Value        $115
+
 Catalog Utilization       64%
+
 Top Genre               	Rock(35%)
+
 Top Artist	              Queen
 
 💻 Sample Query
+
 sql
 -- Top 10 customers by spending
 SELECT c.first_name, c.last_name, c.country, 
@@ -38,6 +48,7 @@ ORDER BY total_spent DESC
 LIMIT 10;
 
 📁 Repository Structure
+
 text
 ├── README.md
 ├── schema.sql
