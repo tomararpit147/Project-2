@@ -9,6 +9,7 @@ A comprehensive SQL analysis of Apple iTunes Music Store data to derive actionab
 Tables: employee, customer, invoice, invoice_line, track, album, artist, genre, media_type, playlist, playlist_track
 
 🔍 Key Analysis Areas
+
 • Customer Analytics: Top spenders, lifetime value, repeat purchases
 
 • Sales Analysis: Revenue trends, seasonal patterns, rep performance
@@ -70,6 +71,7 @@ text
     └── recommendations.md
     
 🛠️ Technologies
+
 • SQL (MySQL/PostgreSQL)
 
 • CSV datasets
@@ -77,6 +79,7 @@ text
 • Power BI / Tableau (optional)
 
 🚀 Quick Start
+
 • Run schema.sql to create tables
 
 • Import CSV files
@@ -86,6 +89,7 @@ text
 • Explore insights in /insights
 
 📈 Business Recommendations
+
 • Marketing: Target inactive customers, expand in high-potential markets
 
 • Product: Bundle unsold tracks, create artist collections
