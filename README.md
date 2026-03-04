@@ -39,12 +39,19 @@ Top Artist	              Queen
 
 sql
 -- Top 10 customers by spending
-SELECT c.first_name, c.last_name, c.country, 
+
+SELECT c.first_name, c.last_name, c.country,
+
        ROUND(SUM(i.total),2) AS total_spent
+       
 FROM customer c
+
 JOIN invoice i ON c.customer_id = i.customer_id
+
 GROUP BY c.customer_id
+
 ORDER BY total_spent DESC
+
 LIMIT 10;
 
 📁 Repository Structure
