@@ -21,23 +21,24 @@ Tables: employee, customer, invoice, invoice_line, track, album, artist, genre, 
 
 📊 Key Insights
 
-Metric	                  Value
+Metric	                          Value
 
-Total Revenue	            $11,800
+Total Revenue	                   $11,800
 
-Active Customers	        45
+Active Customers	            45
 
-Avg Customer Value        $115
+Avg Customer Value               $115
 
-Catalog Utilization       64%
+Catalog Utilization              64%
 
-Top Genre               	Rock(35%)
+Top Genre               	     Rock(35%)
 
-Top Artist	              Queen
+Top Artist	                   Queen
 
 💻 Sample Query
 
 sql
+
 -- Top 10 customers by spending
 
 SELECT c.first_name, c.last_name, c.country,
