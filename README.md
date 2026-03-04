@@ -3,8 +3,6 @@
 A comprehensive SQL analysis of Apple iTunes Music Store data to derive actionable business insights on customer behavior, sales performance, and product popularity.
 
 🗄️ Database Schema
-https://via.placeholder.com/800x400?text=ER+Diagram
-
 Tables: employee, customer, invoice, invoice_line, track, album, artist, genre, media_type, playlist, playlist_track
 
 🔍 Key Analysis Areas
